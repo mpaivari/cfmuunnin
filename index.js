@@ -3,8 +3,8 @@ const fahrenheit=document.querySelector('#fahrenheit');
 const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
-button.addEventListener('click', muunna);
-
 function muunna() {
-  alert('täällä ollaan');
-}
+    alert('täällä ollaan');
+  }
+  
+button.addEventListener('click', muunna);
