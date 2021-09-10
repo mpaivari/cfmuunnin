@@ -3,11 +3,14 @@ const fahrenheit=document.querySelector('#fahrenheit');
 const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
-function muunna() {
-    let syote = fahrenheitSyote.value;
-    fahrenheitTuloste.textContent = syote;
+function fahCelsius(fahAsteet) {
+    let celsius = fahAsteet;
+    
+    celsius = 2.5  * celsius;
 
-    celsiusTuloste.textContent = syote;
+    fahrenheit.textContent = celsius;
+
+    return celsius;
   }
   
 button.addEventListener('click', muunna);
