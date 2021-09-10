@@ -4,7 +4,10 @@ const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
 function muunna() {
-    alert('täällä ollaan');
+    let syote = fahrenheitSyote.value;
+    fahrenheitTuloste.textContent = syote;
+
+    celsiusTuloste.textContent = syote;
   }
   
 button.addEventListener('click', muunna);
