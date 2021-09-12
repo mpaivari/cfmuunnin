@@ -11,4 +11,4 @@ function muunna {
     console.log('abcd');
   }
   
-button.addEventListener('click', muunna);
+button.addEventListener('click', muunna());
