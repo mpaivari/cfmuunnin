@@ -1,11 +1,11 @@
 const input=document.querySelector('#input');
-const spanFahr=document.querySelector('#fahrenheit');
+const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const spanCels=document.querySelector('#celsius');
 
 function muunna() {
     fahAsteet = input.value;
-    spanFahr.textContent = fahAsteet;
+    fahrenheit.textContent = fahAsteet;
  
     console.log('abcd');
   }
