@@ -7,8 +7,7 @@ function muunna() {
     fahAsteet = input.value;
     fahrenheit.textContent = fahAsteet;
 
-    celAsteet = fahAsteet;
-    celsius.textContent = celAsteet;
+    celsius.textContent = fahAsteet;
     console.log('abcd');
   }
   
