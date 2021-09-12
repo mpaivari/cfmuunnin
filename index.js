@@ -5,9 +5,10 @@ const spanCels=document.querySelector('#celsius');
 
 function muunna() {
     fahAsteet = input.value;
+    
+    console.log(fahAsteet);
+    
     fahrenheit.textContent = fahAsteet;
- 
-    console.log('abcd');
   }
   
 button.addEventListener('click', muunna);
