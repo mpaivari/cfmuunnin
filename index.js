@@ -4,10 +4,10 @@ const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
 function muunna() {
-    fahAsteet = fahrenheit.textContent
+    fahAsteet = input.value;
     celAsteet = 2.5 * fahAsteet;
 
-    fahrenheit.textContent = celAsteet; 
+    fahrenheit.textContent = fahAsteet; 
     console.log('abcd');
   }
   
