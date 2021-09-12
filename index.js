@@ -1,4 +1,4 @@
-const input=document.querySelector('#input');
+const input=document.querySelector('input');
 const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const spanCels=document.querySelector('#celsius');
@@ -8,7 +8,6 @@ function muunna() {
     
     console.log(fahAsteet);
     
-    fahrenheit.textContent = fahAsteet;
   }
   
 button.addEventListener('click', muunna);
