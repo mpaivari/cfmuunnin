@@ -8,6 +8,8 @@ function muunna() {
     
     console.log(fahAsteet);
     
+    fahrenheit.textContent = fahAsteet;
+    
   }
   
 button.addEventListener('click', muunna);
