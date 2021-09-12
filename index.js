@@ -1,5 +1,5 @@
 const input=document.querySelector('input');
-const fahrenheit=document.getElementById('fahrenheit');
+const fahrenheit=document.getElementById('#fahrenheit');
 const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
