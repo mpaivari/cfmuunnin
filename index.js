@@ -5,9 +5,9 @@ const button =document.querySelector('button');
 
 function muunna() {
     fahAsteet = input.value;
-    celAsteet = 2.5 * fahAsteet;
+    fahrenheit.textContent = fahAsteet;
 
-    fahrenheit.textContent = fahAsteet; 
+    celAsteet = 2.5 * fahAsteet;
     console.log('abcd');
   }
   
