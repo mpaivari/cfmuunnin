@@ -3,14 +3,12 @@ const fahrenheit=document.getElementById('fahrenheit');
 const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
-function fahCelsius(fahAsteet) {
-    let celsius = fahAsteet;
-    
-    celsius = 2.5  * celsius;
+function muunna {
+    fahAsteet = fahrenheit.textContent
+    celAsteet = 2.5 * fahAsteet;
 
-    fahrenheit.textContent = celsius;
-
-    return celsius;
+    fahrenheit.textContent = celAsteet; 
+    console.log('abcd');
   }
   
 button.addEventListener('click', muunna);
