@@ -8,6 +8,7 @@ function muunna() {
     fahrenheit.textContent = fahAsteet;
 
     celAsteet = 2.5 * fahAsteet;
+    celsius.textContent = celAsteet;
     console.log('abcd');
   }
   
