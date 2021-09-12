@@ -3,7 +3,7 @@ const fahrenheit=document.getElementById('fahrenheit');
 const celsius=document.querySelector('#celsius');
 const button =document.querySelector('button');
 
-function muunna {
+function muunna(token) {
     fahAsteet = fahrenheit.textContent
     celAsteet = 2.5 * fahAsteet;
 
