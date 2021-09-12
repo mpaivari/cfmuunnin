@@ -9,7 +9,7 @@ function muunna() {
     console.log(fahAsteet);
     
     fahrenheit.textContent = fahAsteet;
-    celsius.textContent = Math.round((fahAsteet-32)/1.8*100))/100;
+    celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100;
   }
   
 button.addEventListener('click', muunna);
