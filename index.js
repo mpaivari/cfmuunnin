@@ -5,11 +5,11 @@ const celsius=document.querySelector('#celsius');
 
 function muunna() {
     fahAsteet = input.value;
-    
+     
     console.log(fahAsteet);
     
     fahrenheit.textContent = fahAsteet;
-    celsius.textContent = fahAsteet;
+    celsius.textContent = (fahAsteet-32)/1.8;
   }
   
 button.addEventListener('click', muunna);
