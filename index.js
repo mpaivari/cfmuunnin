@@ -9,11 +9,11 @@ function muunna() {
     
     if (radioMuunnos.value = 'FC')  
     {
-       console.log(radio.value);
+       console.log(radioMuunnos.value);
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100;
     } else {
-        console.log(radio.value);
+        console.log(radioMuunnos.value);
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet*9/5)+32);    
     }
