@@ -9,7 +9,7 @@ function muunna() {
      
     console.log(select.value);
     
-    if select.value = 'FC' then 
+    if (select.value = 'FC') then 
     {
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100;
