@@ -6,6 +6,7 @@ const celsius=document.querySelector('#celsius');
 
 function muunna() {
     fahAsteet = input.value;
+    console.log(fahAsteet);
     
     if (radioMuunnos.value = 'FC')  
     {
