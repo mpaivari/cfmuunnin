@@ -13,9 +13,7 @@ function muunna() {
     {
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100;
-    }
-    else
-    {
+    } else {
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet*9/5)+32);    
     }
