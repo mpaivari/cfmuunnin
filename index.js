@@ -1,5 +1,4 @@
-const inputFah=document.querySelector('inputFah');
-const inputCel=document.querySelector('inputCel');
+const input=document.querySelector('input');
 const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const celsius=document.querySelector('#celsius');
