@@ -7,7 +7,7 @@ const celsius=document.querySelector('#celsius');
 function muunna() {
     fahAsteet = input.value;
      
-    console.log(fahAsteet);
+    console.log(select.value);
     
     if select.value = 'FC' then 
     {
