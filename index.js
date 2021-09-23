@@ -1,5 +1,5 @@
 const input=document.querySelector('input');
-const select=document.querySelector('select');
+const radio=document.querySelector('radio');
 const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const celsius=document.querySelector('#celsius');
@@ -7,7 +7,7 @@ const celsius=document.querySelector('#celsius');
 function muunna() {
     fahAsteet = input.value;
     
-    if (select.value = 'FC')  
+    if (radio.value = 'FC')  
     {
        console.log(select.value);
       fahrenheit.textContent = fahAsteet;
