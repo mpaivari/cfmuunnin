@@ -1,5 +1,5 @@
 const input=document.querySelector('input');
-const radio=document.querySelector('radioMuunnos');
+const radio=document.querySelector('#radioMuunnos');
 const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const celsius=document.querySelector('#celsius');
