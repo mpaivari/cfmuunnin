@@ -1,5 +1,5 @@
 const input=document.querySelector('input');
-const select=document.querySelector('selectMuunnos');
+const select=document.querySelector('#selectMuunnos');
 const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const celsius=document.querySelector('#celsius');
