@@ -6,17 +6,15 @@ const celsius=document.querySelector('#celsius');
 
 function muunna() {
     fahAsteet = input.value;
-    console.log(fahAsteet);
+    console.log(fahAsteet + radioMuunnos.value);
     
     if (radioMuunnos.value = 'FC')  
     {
-       console.log(radioMuunnos.value);
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100;
     }     
     if (radioMuunnos.value = 'CF')  
     {
-        console.log(radioMuunnos.value);
       fahrenheit.textContent = fahAsteet;
       celsius.textContent = Math.round((fahAsteet*9/5)+32);    
     }
