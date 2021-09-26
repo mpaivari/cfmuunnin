@@ -1,6 +1,6 @@
 const input=document.querySelector('input');
-const muunnosCF=document.querySelector('input[name="radioCF"]');
-const muunnosFC=document.querySelector('input[name="radioFC"]');
+const muunnosCF=document.querySelector('input[id="radioCF"]');
+const muunnosFC=document.querySelector('input[id="radioFC"]');
 const fahrenheit=document.querySelector('#fahrenheit');
 const button =document.querySelector('button');
 const celsius=document.querySelector('#celsius');
