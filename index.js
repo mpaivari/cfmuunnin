@@ -11,13 +11,13 @@ function muunna() {
     
     if (muunnosFC.checked)  
     {
-        fahrenheit.textContent = fahAsteet;
-        celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100;
+        fahrenheit.textContent = fahAsteet + ' °F';
+        celsius.textContent = Math.round((fahAsteet-32)/1.8*100)/100 + ' °C';
     }   
     if (muunnosCF.checked)  
     {  
-        fahrenheit.textContent = fahAsteet;
-        celsius.textContent = Math.round((fahAsteet*9/5)+32);  
+        fahrenheit.textContent = fahAsteet + ' °C';
+        celsius.textContent = Math.round((fahAsteet*9/5)+32) + ' °F';  
     }
   }
   
