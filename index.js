@@ -1,4 +1,4 @@
-const input=document.querySelector('input');
+const input=document.querySelector('#asteet');
 const muunnosCF=document.querySelector('input[id="radioCF"]');
 const muunnosFC=document.querySelector('input[id="radioFC"]');
 const fahrenheit=document.querySelector('#fahrenheit');
